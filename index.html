@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bg_container">
+
+        <header class="top-items_container">
+
+            <div class="top-left-items_con">
+                <figure class="logo">
+                    <img src="./images/logo.svg" alt="">
+                </figure>
+                <nav class="nav-items_con">
+                    <p id="list-con_p" onclick="featuresDropDownNav()">Features</p>
+                    <p id="list-con_p" onmousedown="companyDropDownNav()">Company</p>
+                    <p>Careers</p>
+                    <p>About</p>
+
+                    <ul class="featured-items_listcon">
+                        <li><img src="./images/icon-todo.svg" alt=""><a href="#">Todo list</a></li>
+                        <li><img src="./images/icon-calendar.svg" alt=""><a href="#">Calendar</a></li>
+                        <li><img src="./images/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
+                        <li><img src="./images/icon-planning.svg" alt=""><a href="#">Planning</a></li>
+                    </ul>
+                    <ul class="company-items_listcon">
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <div class="top-right-items_con">
+                <button class="click-item">Login</button>
+                <button class="click-item">Register</button>
+            </div>
+
+        </header>
+
+        <main class="contents-container">
+
+            <section class="content-one_con">
+
+                <div class="cont-left_con">
+                    <h1 class="item-01">
+                        Make <br> remote work
+                    </h1>
+
+                    <p class="item-02">
+                        Get your team in sync, no matter your location. <br> Streamline processes, create team rituals
+                        and <br> watch productively soar.
+                    </p>
+
+                    <button class="item-03 click-item">Learn More</button>
+
+                    <figure class="item-04">
+                        <img src="./images/client-databiz.svg" alt="" class="grayscale-logo" loading="lazy">
+                        <img src="./images/client-audiophile.svg" alt="" class="grayscale-logo" loading="lazy">
+                        <img src="./images/client-meet.svg" alt="" class="grayscale-logo" loading="lazy">
+                        <img src="./images/client-maker.svg" alt="" class="grayscale-logo" loading="lazy">
+                    </figure>
+                </div>
+
+                <div class="cont-right_con">
+                    <figure class="image">
+                        <img src="./images/image-hero-desktop.png" alt="" loading="lazy">
+                    </figure>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+<script src="./nav.js"></script>
+</html>
